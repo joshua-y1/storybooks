@@ -10,7 +10,7 @@ router.get('/', ensureGuest, (request, response) => {
   response.render('login', {
     layout: 'login'
   });
-})
+});
 
 // @desc Dashboard
 // @route GET /dashboard
@@ -25,6 +25,6 @@ router.get('/dashboard', ensureAuth, async (request, response) => {
     console.error(err);
     response.render('error/500');
   }
-})
+});
 
 module.exports = router;
