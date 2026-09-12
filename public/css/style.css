@@ -16,3 +16,17 @@ p {
     float: left;
     margin-right: 10px;
 }
+
+.class-image {
+  position: relative;
+}
+
+.class-image .btn-floating {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.img-small {
+    width: 180px;
+}
